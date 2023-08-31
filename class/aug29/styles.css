@@ -1,0 +1,37 @@
+/*Structure */
+
+body {
+    background-color:plum;
+}
+
+/*Tables*/
+table{
+    border-collapse:collapse;
+}
+td, th{
+    border: 3px dotted greenyellow;
+}
+th {
+    background:pink;
+}
+
+/*Typography */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+p {
+    background-color: salmon;
+    color:aqua;
+}
+h1 {
+    background-color: darkolivegreen;
+    color:purple;
+}
+h2 {
+   background-color:blanchedalmond;
+   color:orangered
+}
+table {
+    background-color:brown;
+    color:red;
+}
