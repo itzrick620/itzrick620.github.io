@@ -1,0 +1,65 @@
+/*Structure */
+
+body {
+    background-color:#4d5922;
+    background:url(../../images/wp9377892.jpg);
+}
+#content{
+    background:rgba(162, 166, 41, 0.65);
+    width:75%;
+    margin:auto;
+    padding:7px;
+    border-radius:5px
+}
+
+/*Images*/
+img{
+    padding: 10px;
+    margin:10px;
+    border:5px solid #d27d2d;
+    border-radius:3px;
+}
+/*Tables*/
+table{
+    border-collapse:collapse;
+}
+td, th{
+    border: 3px solid darkcyan;
+    background:darkslateblue;
+}
+th {
+    background:skyblue;
+}
+
+/*Navigation*/
+a {
+    text-decoration: none;
+    background: #bec169;
+    color: black;
+    padding: 2px;
+    border-radius: 3px;
+}
+a:hover{
+    background: salmon;
+}
+
+/*Typography */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #aebf2a;
+}
+h2 {
+   color: #bfa584;
+}
+#orang-info {
+    font-style:italic;
+}
+strong{
+    color:orange
+}
+p {
+    color: #a6554e;
+}
+
