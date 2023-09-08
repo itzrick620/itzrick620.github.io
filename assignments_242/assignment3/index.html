@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flexbox Alignment</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header id="main-header" class="padded-area">
+            <h1>Practicing Flexbox Alignment</h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#">Nav Item 1</a></li>
+                    <li><a href="#">Nav Item 2</a></li>
+                    <li><a href="#">Nav Item 3</a></li>
+                    <li><a href="#">Nav Item 4</a></li>
+                    <li><a href="#">Nav Item 5</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main-content" class="padded-area">
+            <div class="content">
+                <section class="main">
+                    <h2>Main Content</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Nam aliquam sem et tortor. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Odio tempor orci dapibus ultrices. Ante in nibh mauris cursus mattis.</p>
+                </section>
+                <section class="side">
+                    <h2>Sidebar</h2>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="columns">
+                <section class="col1of2">
+                    <header class="padded-area">
+                        <h3>Column 1 of 2</h3>
+                        <div class="columns">
+                            <section class="col1of3">
+                                <h4>Nested Column 1</h4>
+                            </section>
+                            <section class="col1of3">
+                                <h4>Nested Column 2</h4>
+                            </section>
+                            <section class="col1of3">
+                                <h4>Nested Column 3</h4>
+                            </section>
+                        </div>
+                    </header>
+                </section>
+
+                <section class="col2of2">
+                    <header class="padded-area">
+                        <h3>Column 2 of 2</h3>
+                        <div class="columns">
+                            <section class="col2of3">
+                                <h4>Nested Column 1</h4>
+                            </section>
+                            <section class="col2of3">
+                                <h4>Nested Column 2</h4>
+                            </section>
+                            <section class="col2of3">
+                                <h4>Nested Column 3</h4>
+                            </section>
+                        </div>
+                    </header>
+                </section>
+            </div>
+
+            <div class="main-img">
+                <section class="img1of3">
+                    <img id="img1" src="https://place-hold.it/320x100/abc">
+                    <img id="img2" src="https://place-hold.it/320x100/abc">
+                    <img id="img3" src="https://place-hold.it/320x100/abc">
+                </section>
+            </div>
+        </main>
+
+        <footer id="main-footer" class="padded-area">
+            <h3 class="">Footer</h3>
+            <p class="footer-right1">123 Joe Shmoe Ave.</p>
+            <p class="footer-right1">Columbia, SC, 29225</p>
+            <h4>Copyright</h4>
+        </footer>
+    </body>
+</html>
