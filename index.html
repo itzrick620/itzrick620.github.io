@@ -5,14 +5,37 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <h1><u>CSCE 242: Web Applications</u></h1>
-        <h2>Ricky Garretson</h2>
-        <p>In  Web Applications, our objective is to learn to create dynamic web software by mastering HTML, CSS, and Java. Through hands-on projects, we design user-friendly interfaces, integrate databases, and address security issues. This course equips students to excel in modern web development and contribute to the evolving digital world.</p>
-        <h2>Assignments:</h2>
-        <ol>
-            <li><a href="./assignments_242/assignment1/basicwebsite.html">Basic HTML Website</a></li>
-            <li><a href="./assignments_242/assignment2/index.html">Styled HTML Website</a></li>
-            <li><a href="./assignments_242/assignment3/index.html">Flexbox Practice</a></li>
-        </ol>
+        <div class="page-container">
+            <div id="main-content">
+                <header>
+                    <h1><u>CSCE 242: Web Applications</u></h1>
+                    <p>In  Web Applications, our objective is to learn to create dynamic web software by mastering HTML, CSS, and Java. Through hands-on projects, we design user-friendly interfaces, integrate databases, and address security issues. This course equips students to excel in modern web development and contribute to the evolving digital world.</p>
+                </header>
+                <div class="assignments">
+                    <div class="assignments-box">
+                        <a href="./assignments_242/assignment1/basicwebsite.html">Basic HTML Website</a> <!--First Assignment-->
+                        <a href="./assignments_242/assignment1/basicwebsite.html"><img src="./images/assignment1.png" class="assignment-img"></a>
+                        <p>In assignment 1 we implemented html code using proper techniques and created a website about the sport of lacrosse and its development into a college sport.</p>
+                    </div>
+
+                    <div class="assignments-box">
+                        <a href="./assignments_242/assignment2/index.html">Styled HTML Website</a>  <!--Second Assignment-->
+                        <a href="./assignments_242/assignment2/index.html"><img src="./images/assignment2.png" class="assignment-img"></a>
+                        <p>In assignment 2 we implemented css syling and created another website, this time with divs, a background image, a color scheme, and more.</p>
+                    </div>
+                    <div class="assignments-box">
+                        <a href="./assignments_242/assignment3/index.html">Flexbox Practice</a>  <!--Third Assignment-->
+                        <a href="./assignments_242/assignment3/index.html"><img src="./images/assignment3.png" class="assignment-img"></a>
+                        <p>In assignment 3 we implemented flexbox and media query to allow a better viewing experience on smaller resolutions.</p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <p>Ricky Garretson</p>
+                    <p>1600 Pennsylvania Avenue NW, Washington, DC 20500</p>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
