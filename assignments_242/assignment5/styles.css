@@ -1,0 +1,318 @@
+/*Ricky Garretson
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-header {
+    background-color: black;
+    margin-top: -10px;
+}
+
+#main-nav {
+    list-style-type: none;
+}
+
+ul, li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+#section-1 {
+    margin-top: -24px;
+}
+
+#section-1 ul {
+    background-color: #73000a;
+}
+
+#section-2 {
+    background-color: white;
+    margin-top: -24px;
+}
+
+#section-2 h1 {
+    background-color: #73000a;
+    color:white;
+    width: 40%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#section-2 h2,
+#section-2 p {
+    padding: 10px;
+    margin: 35px;
+}
+
+#section-3 {
+    background-color: #73000a;
+}
+
+#section-3 h2, 
+#section-3 p {
+    color: white;
+    margin-left: 50%;
+    margin: 20px;
+}
+
+#section-4 {
+    background: black;
+}
+#section-4 h2,
+#section-4 p,
+#section-4 a {
+    color:white;
+    margin: 20px;
+}
+
+#section-5 {
+    background-color: #ececec;
+}
+
+#section-5 h1,
+#section-5 p,
+#section-5 a {
+    margin-left: 50%;
+    margin: 20px;
+}
+
+#section-5 h1 {
+    color:#73000a;
+}
+
+#section-5 p {
+    color: black;
+}
+
+#section-6 h1 {
+    color:#73000a;
+}
+
+#section-6 h2{
+    color:#73000a;
+}
+
+#section-7 {
+    background-color: #73000a;
+}
+
+#section-7 h1,
+#section-7 p,
+#section-7 a {
+    color:white;
+    margin-left: 50%;
+    margin: 20px;
+}
+
+#section-7 a,
+#section-7 a {
+    background-color: black;
+    text-decoration: none;
+    border: 5px solid white; 
+    color: white;
+    padding: 10px;
+}
+
+#section-7 a:hover,
+#section-10 a:hover {
+    color:#73000a;
+    border: 5px solid #73000a;
+    background-color: white;
+}
+
+#section-8 {
+    background-color: #ececec;
+}
+
+#section-8 h1 {
+    color:#73000a;
+    margin: 20px;
+}
+
+#section-8 p {
+    color: black;
+    margin: 20px;
+}
+
+#section-8 a,
+#section-9 a,
+#section-5 a,
+#section-4 a,
+#section-11 a {
+    background-color: #73000a;
+    color:white;
+    border: 5px solid white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+#section-8 a:hover,
+#section-9 a:hover,
+#section-5 a:hover,
+#section-4 a:hover,
+#section-11 a:hover {
+    border: 5px solid #73000a;
+    background-color: white;
+    color:#73000a;
+}
+
+#section-9 {
+    background-color: #1f414d;
+}
+
+#section-9 h1,
+#section-9 p {
+    color:white;
+    margin-left: 50%;
+    margin:20px;
+}
+
+#section-10 {
+    background-image: url(https://place-hold.it/300x120.gif);
+    padding: 150px;
+}
+
+#s-10 {
+    background-color: #73000a;
+    color: white;
+    margin-right: 20%;
+    padding: 30px;
+}
+
+#section-11 {
+    background-color: #ececec;
+}
+
+#section-11 h1, 
+#section-11 p {
+    margin-left: 50%;
+    margin:20px;
+}
+
+#section-11 h1 {
+    color:#73000a
+}
+
+#section-11 p {
+    color: black;
+}
+
+#LAST {
+    background-color: #73000a;
+    padding: 30px;
+    color:white;
+}
+
+#LAST a {
+    color: white;
+    text-decoration: none;
+}
+
+#LAST a:hover {
+    background-color: #cc2e40;
+}
+
+#LAST ul {
+    display: inline-block;
+}
+
+footer {
+    background-color: black;
+    margin-top: -16px;
+}
+
+footer a,
+footer li {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: small;
+}
+
+footer a:hover {
+    background-color: #cc2e40;
+}
+
+.big {
+    font-size: xx-large;
+}
+
+.last-part{
+    margin: 10px;
+    padding: 40px 20px;
+    background: whitesmoke;
+}
+
+/* Images */
+#main-header img,
+#LAST img {
+    display: block;
+    height:55px;
+}
+
+#section-1 img {
+    margin-top: -24px;
+    margin-bottom: -10px;
+}
+
+#section-3 img,
+#section-5 img,
+#section-9 img,
+#section-11 img {
+    display: block;
+    margin-right: 50%;
+}
+
+#section-4 img {
+    display: block;
+    margin-left: 0%;
+}
+
+#section-8 img {
+    display: block;
+    margin-left: 0%;
+    padding: 30px;
+}
+
+/* Typography */
+#main-header h2 {
+    font-size: small;
+    text-align: left;
+}
+
+#main-nav a,
+#section-1 a,
+#section-5 a {
+    text-decoration: none;
+    color: white;
+}
+
+#main-nav a:hover {
+    background:#cc2e40;
+}
+
+#section-1 a:hover {
+    background-color: #cc2e40;
+}
+
+/* Larger Resolutions */
+@media only screen and (min-width: 900px) {
+    #main-nav ul,
+    #section-1 ul,
+    #section-3,
+    #section-4,
+    #section-5,
+    #section-7,
+    #section-8
+    #section-9,
+    #section-11,
+    .flex-container {
+        display: flex;
+    }
+
+    .flex {
+        display: 1;
+    }
+}
