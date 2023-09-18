@@ -1,0 +1,46 @@
+/*Structure*/
+body {
+    background-color: darkkhaki;
+}
+/*Animation*/
+#square {
+    background-color: brown;
+    width:100px;
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+    /*has to be relative in order to animate*/
+    top:100px;
+    
+}
+#button-move {
+    position:relative;
+    left:150px;
+}
+.move-square {
+    animation-name: anim-square;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position:relative;
+}
+
+@keyframes anim-square {
+    0% {
+        background-color: red;
+        top:0px;
+        opacity: 1;
+    }
+    50% {
+        background-color: white;
+        top:100px;
+        opacity: 0;
+    }
+    100% {
+        background-color: cornflowerblue;
+        top:0px;
+        opacity: 1;
+    }
+}
+/*Typography*/
+
+/*Media Query*/

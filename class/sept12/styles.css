@@ -1,0 +1,12 @@
+/*Structure*/
+
+/*Typography*/
+.special {
+    background: maroon;
+    padding: 5px;
+    color: magenta;
+    border: 1px dotted orangered;
+}
+.hide {
+    display:none;
+}

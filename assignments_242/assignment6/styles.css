@@ -1,0 +1,98 @@
+/*Structure*/
+
+#main-header {
+    background-color: salmon;
+    margin: 5px;
+}
+
+#main-content {
+    margin: 5px;
+}
+
+#main-footer {
+    background-color: salmon;
+    margin: 5px;
+    padding: 5px;
+}
+
+.col1of3 {
+    background-color: seashell;
+    border: 5px solid maroon;
+    padding-left: 0px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.comment {
+    background-color: seashell;
+    border: 5px solid maroon;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#button-show, #button-hide {
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+#text-bars {
+    text-align: left;
+}
+
+/*Animation*/
+
+.move-ball {
+    position: relative;
+    animation-name: anim-ball;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim-ball {
+    0% {
+        bottom: 50px;
+        left: 100px;
+    }
+    50% {
+        bottom: 20px;
+        left: 300px;
+    }
+    100% {
+        bottom: 10px;
+        left: 100px;
+    }
+}
+
+/*Typography*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#main-footer p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Larger Resolutions*/
+
+@media only screen and (min-width: 900px) {
+    
+    .flex-container {
+        display: flex;
+    }
+    
+    .col1of3 {
+        flex: 1;
+    }
+}
