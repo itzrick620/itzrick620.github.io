@@ -1,0 +1,177 @@
+/* Default Styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #227345; 
+    color: #fff;
+}
+
+header {
+    background-color: #000; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: #fff; 
+    margin: 6px 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-bottom: none;
+    padding-bottom: 5px;
+    color: #fff; 
+}
+
+.menu li:hover {
+    background-color: #325441; 
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #39BF73; 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Style for input elements and buttons */
+#inputContainer {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; 
+    color: #000; 
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    color: #999; 
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #457359; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #457359; 
+}
+
+#error {
+    color: red;
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#thermometer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px; 
+    margin: 0 auto; 
+    position: relative;
+    flex-direction: column-reverse;
+}
+
+#thermometer {
+    width: 20px; 
+    background-color: white; 
+    height: 200px; 
+    border-radius: 5px; 
+    position: relative;
+    background: linear-gradient(to top, white 0%, white 100%);
+}
+
+#thermometerFill {
+    width: 100%;
+    background-color: red; 
+    height: 0; 
+    border-radius: inherit;
+}
+
+#donationAmount, #updateThermometer {
+    margin-top: 10px; 
+}
+
+/* Flexbox */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-toggle {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}

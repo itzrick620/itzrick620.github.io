@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>My Title</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menuToggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="menu">
+                <li id="exercise1">Exercise 1</li>
+                <li id="exercise2">Exercise 2</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="exercise1Content">
+            <h2>Exercise 1: Determining the Oldest and Youngest</h2>
+            <div id="inputContainer">
+                <input type="text" id="name1" placeholder="Name 1">
+                <input type="number" id="age1" placeholder="Age 1">
+                <input type="text" id="name2" placeholder="Name 2">
+                <input type="number" id="age2" placeholder="Age 2">
+                <input type="text" id="name3" placeholder="Name 3">
+                <input type="number" id="age3" placeholder="Age 3">
+                <button id="determineOrder">Determine Order</button>
+                <div id="result"></div>
+            </div>
+        </section>
+        <section id="exercise2Content">
+            <h2>Exercise 2: Thermometer</h2>
+            <div id="thermometer-container">
+                <div id="thermometer">
+                    <div id="thermometerFill"></div>
+                </div>
+                <input type="number" id="donationAmount" placeholder="Donation Amount">
+                <button id="updateThermometer">Update Thermometer</button>
+            </div>
+        </section>                                        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
