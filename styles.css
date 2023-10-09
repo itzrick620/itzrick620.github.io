@@ -104,6 +104,6 @@ p {
         flex-direction:column;
     }
     .assignments-box{
-        flex-basis: 100%;
+        flex-basis: 25%;
     }
 }
