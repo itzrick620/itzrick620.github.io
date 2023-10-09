@@ -1,0 +1,109 @@
+/*Body*/
+
+body {
+    background-color: lightseagreen;
+}
+
+#main-content,
+#main-header,
+#main-footer {
+    padding: 20px 40px;
+    margin: auto;
+}
+
+#main-nav li {
+    text-align: center;
+}       
+
+#main-footer p {
+    text-align: right;
+}
+.mission, .quick-links{
+    background-color: aquamarine;
+    border:solid 5px;
+    border-color: blue;
+    padding: 20px;
+    margin: 10px;
+    flex:1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links-box {
+    background-color: silver;
+    border:solid 5px;
+    border-color:black;
+    padding:10px;
+    margin:5px;
+    flex:25%;
+}
+
+/*Main Nav*/
+
+#main-nav ul {
+    padding-left: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav a:hover {
+    border-bottom: 1px solid lightblue;
+}
+
+/*Hamburger Menu*/
+
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+/*Typography*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+#main-nav li {
+    font-size: 1.5em;
+}
+
+#main-content p {
+    font-size: 1.2em;
+}
+
+/*Larger Resolution*/
+
+@media only screen and (min-width:1100px) {
+    #main-nav-items {
+        display: flex;
+    }
+
+    #main-nav-items li {
+        flex: 1;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    #main-content p {
+        padding-right: 100px;
+    }
+}
