@@ -1,7 +1,7 @@
 /*Body*/
 
 body {
-    background-color: lightseagreen;
+    background-color: white;
 }
 
 #main-content,
@@ -9,6 +9,7 @@ body {
 #main-footer {
     padding: 20px 40px;
     margin: auto;
+    text-align: center;
 }
 
 #main-nav li {
@@ -19,24 +20,33 @@ body {
     text-align: right;
 }
 .mission, .quick-links{
-    background-color: aquamarine;
+    background-color: white;
     border:solid 5px;
-    border-color: blue;
+    border-color: black;
     padding: 20px;
     margin: 10px;
-    flex:1;
+    flex:auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .links-box {
-    background-color: silver;
+    background-color: white;
     border:solid 5px;
     border-color:black;
     padding:10px;
     margin:5px;
-    flex:25%;
+    flex:10%;
+}
+.links-img {
+    margin-top:10px;
+    max-width: 100%;
+    height: auto;
+    border-radius:3px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /*Main Nav*/
@@ -58,7 +68,7 @@ body {
 }
 
 #main-nav a:hover {
-    border-bottom: 1px solid lightblue;
+    border-bottom: 1px solid black;
 }
 
 /*Hamburger Menu*/
@@ -86,6 +96,12 @@ body {
 
 #main-content p {
     font-size: 1.2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    border-radius: 3px;
 }
 
 /*Larger Resolution*/
