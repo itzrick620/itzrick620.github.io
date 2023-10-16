@@ -13,7 +13,7 @@ body {
 }
 
 #main-header h1, h2 {
-    color: #a65132
+    color: #a65132;
 }
 
 #main-nav li {
@@ -44,16 +44,7 @@ body {
     border-radius: 45px;
     flex:10%;
 }
-/*
-.links-box {
-    background-color: white;
-    border:solid 5px;
-    border-color:black;
-    padding:10px;
-    margin:5px;
-    flex:10%;
-}
-*/
+
 /*Main Nav*/
 
 #main-nav ul {

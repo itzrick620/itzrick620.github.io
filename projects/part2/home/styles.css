@@ -1,15 +1,17 @@
 /*Body*/
 
 body {
-    background-color: white;
+    background-color: #FBE292;
 }
 
-#main-content,
-#main-header,
-#main-footer {
+#main-content, #main-header, #main-footer {
     padding: 20px 40px;
     margin: auto;
     text-align: center;
+}
+
+#main-header h1, h2 {
+    color: #a65132
 }
 
 #main-nav li {
@@ -20,7 +22,8 @@ body {
     text-align: right;
 }
 .mission, .quick-links{
-    background-color: white;
+    background-color: #7A6DA6;
+    color: #310273;
     padding-left: 100px;
     padding: 20px;
     margin: 10px;
@@ -31,9 +34,9 @@ body {
 }
 
 .links-box {
-    background-color: white;
+    background-color: #310273;
     border:solid 5px;
-    border-color:black;
+    border-color:#7A6DA6;
     padding:10px;
     margin:5px;
     flex:10%;
@@ -64,11 +67,11 @@ body {
 
 #main-nav a {
     text-decoration: none;
-    color: black;
+    color: #310273;
 }
 
 #main-nav a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #310273;
 }
 
 /*Hamburger Menu*/
@@ -76,7 +79,7 @@ body {
 #nav-toggle div {
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: #A65132;
     margin: 6px 0;
 }
 
@@ -99,7 +102,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: #A65132;
     padding: 2px;
     border-radius: 3px;
 }
