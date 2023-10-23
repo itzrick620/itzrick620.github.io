@@ -31,6 +31,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border: 3px solid #310273;
 }
 
 .links-box {
@@ -52,6 +53,34 @@ body {
     margin-right:auto;
 }
 
+/*Form Boxes*/
+#messagebox {
+    height: 70px;
+    width: 400px;
+}
+
+#namebox, #emailbox, #subjectbox {
+    height: 35px;
+    width: 400px;
+}
+
+#submit {
+    height: 50px;
+    width: 100px;
+}
+
+#input {
+    border-radius: 10px;
+}
+
+#main-nav-items {
+    margin: 10px;
+    padding: 10px 10px;
+    background: #7A6DA6;
+    text-decoration: #A65132;
+    border-radius: 10px;
+    border: 3px solid #310273;
+}
 /*Main Nav*/
 
 #main-nav ul {

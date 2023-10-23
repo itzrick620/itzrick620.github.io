@@ -42,6 +42,15 @@ const toggleSuccess = () => {
     document.getElementById("p5of5").classList.toggle("hidden");
 }
 
+const logSubmit = () => {
+    const name = document.getElementById("namebox").value;
+    const email = document.getElementById("emailbox").value;
+    const donoamt = document.getElementById("donoamtbox").value;
+
+    console.log(name); 
+    console.log(email); 
+    console.log(donoamt); 
+}
 window.onload = () => {
     document.getElementById("nav-toggle").onclick = toggleNav;
     document.getElementById("p1of5").onclick = toggleHome;
@@ -50,5 +59,5 @@ window.onload = () => {
     document.getElementById("p4of5").onclick = toggleInvolved;
     document.getElementById("p4of5").onclick = toggleSuccess;
 
-
+    document.getElementById("submit").onclick = logSubmit;
 }
