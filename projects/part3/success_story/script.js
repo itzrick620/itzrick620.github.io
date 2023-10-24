@@ -43,7 +43,7 @@ const toggleSuccess = () => {
 }
 
 const printStory = () => {
-    document.getElementById("boxes").classList.add("comment");
+    document.getElementById("box").classList.add("comment");
 
     const newDog = document.getElementById("new");
     const ownerName = document.getElementById("txt-o-name").value;

@@ -24,7 +24,7 @@ body {
     text-align: right;
 }
 
-#success-story-blurb, #stories, #input {
+#success-story-blurb, #stories, #input, #box {
     background-color: #7A6DA6;
     border: 3px solid #310273;
     color: #310273;
@@ -34,6 +34,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#box {
+    list-style-type: none;
 }
 
 #dog1, #dog2, #dog3, #dog4 {
