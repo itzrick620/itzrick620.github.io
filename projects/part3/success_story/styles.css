@@ -24,7 +24,7 @@ body {
     text-align: right;
 }
 
-#success-story-blurb, #stories {
+#success-story-blurb, #stories, #input {
     background-color: #7A6DA6;
     border: 3px solid #310273;
     color: #310273;
@@ -35,6 +35,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 #dog1, #dog2, #dog3, #dog4 {
     border:  3px solid #310273;
     background-color: #7A6DA6;
@@ -42,6 +43,23 @@ body {
     margin: 4px;
     border-radius: 2px;
     flex:10%;
+}
+/*Form*/
+
+#button-add {
+    height: 30px;
+    width: 100px;
+}
+
+label,
+input {
+    display: inline;
+}
+  
+label {
+    width: 100px;
+    text-align: right;
+    padding: 5px;
 }
 
 #main-nav-items {

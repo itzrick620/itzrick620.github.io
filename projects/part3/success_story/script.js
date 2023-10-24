@@ -43,17 +43,24 @@ const toggleSuccess = () => {
 }
 
 const printStory = () => {
+    document.getElementById("boxes").classList.add("comment");
 
-};
+    const newDog = document.getElementById("new");
+    const ownerName = document.getElementById("txt-o-name").value;
+    const email = document.getElementById("email").value;
+    const dogName = document.getElementById("txt-d-name").value;
+    const dogFile = document.getElementById("dog-file").value;
+    const description = document.getElementById("txt-description").value;
+
+    newDog.innerHTML += `<div id = "bottom-sec"> <ul><li>${ownerName}</li><li>${email}</li><li>${dogName}</li><li>${dogFile}</li><li>${description}</li></ul></div>`;
+
+    document.getElementById("new").classList.toggle("hidden");
+}
 
 
 window.onload = () => {
     document.getElementById("nav-toggle").onclick = toggleNav;
-    document.getElementById("p1of5").onclick = toggleHome;
-    document.getElementById("p2of5").onclick = toggleAdopt;
-    document.getElementById("p3of5").onclick = toggleDonate;
-    document.getElementById("p4of5").onclick = toggleInvolved;
-    document.getElementById("p4of5").onclick = toggleSuccess;
+    document.getElementById("button-add").onclick = printStory;
 
 
 }

@@ -44,11 +44,4 @@ const toggleSuccess = () => {
 
 window.onload = () => {
     document.getElementById("nav-toggle").onclick = toggleNav;
-    document.getElementById("p1of5").onclick = toggleHome;
-    document.getElementById("p2of5").onclick = toggleAdopt;
-    document.getElementById("p3of5").onclick = toggleDonate;
-    document.getElementById("p4of5").onclick = toggleInvolved;
-    document.getElementById("p4of5").onclick = toggleSuccess;
-
-
 }
