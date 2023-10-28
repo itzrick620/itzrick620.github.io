@@ -1,0 +1,120 @@
+:root {
+    --primary: #005C53;
+    --secondary: #9FC131;
+    --background: #042940;
+    --text-color: #000000;
+    --card-background: #DBF227;
+    --border-color: #121983;
+    --label-color: #23093b;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: var(--primary);
+  }
+  
+  .movie {
+    background: var(--card-background);
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: var(--primary);
+    flex-basis: 100%;
+  }
+  
+  .movie img {
+    width: 30%;
+    border-radius: 5px;
+    transition: transform 0.3s, z-index 0s, box-shadow 0.3s;
+    z-index: 1;
+  }
+  
+  .movie img:hover {
+    transform: scale(1.5);
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .movie-details {
+    width: 65%;
+    transition: opacity 0.3s;
+  }
+  
+  .movie img:hover + .movie-details {
+    opacity: 0.5;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 5px;
+    color: var(--label-color);
+  }
+  
+  /* Scrollbar Styles */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: var(--background);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 6px;
+    border: 3px solid var(--background);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--secondary);
+  }
+  
+  @media (min-width: 768px) {
+    .movie {
+      max-width: 700px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .movie {
+      max-width: 800px;
+    }
+  }
+  
