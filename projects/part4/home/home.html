@@ -57,9 +57,11 @@
             </div>
             <section class="input">
                 <h1>Contact Us:</h1>
-                <form action="https://api.web3forms.com/submit" method="POST">
+                
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
 
                     <input type="hidden" name="access_key" value="c2837380-2c88-4d41-ac2f-62db1d933b12">
+
                     <section id="box1">
                         <h2 id="name">Name (Required)</h2>
                         <input id="namebox" type="text" name="Name" required>
@@ -77,8 +79,9 @@
                         <textarea id="messagebox" name="message" required></textarea>
                     </section>
                     <div id="button">
-                        <button type="submit">Submit Form</button>
+                        <button id="submit" type="submit">Submit</button>
                     </div>
+                    <p id="result"></p>
                 </form>
                 <script src="https://web3forms.com/client/script.js" async defer></script>
             </section>
