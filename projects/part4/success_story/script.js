@@ -78,13 +78,12 @@ const getDog = (dog) => {
 
     // Create an image element for the dog's picture
     let img = document.createElement("img");
-    img.src = dog.img;
+    img.src = dog.img; // Ensure that the image URL is correct
+    img.alt = dog.name; // Provide an alt text
     section.appendChild(img);
 
     return section;
 };
-
-
 
 window.onload = () => {
     document.getElementById("nav-toggle").onclick = toggleNav;
