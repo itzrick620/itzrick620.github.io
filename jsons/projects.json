@@ -3,28 +3,28 @@
         "owner": "Ricky",
         "emailOwner": "ricky@example.com",
         "name": "Luna",
-        "img": "images/success_luna.jpg",
+        "img": "../jsons/images/success_luna.jpg",
         "desc": "Luna is a 1-year-old german shephard / pitbull mix. She was recently transferred from another nearby shelter, since that shelter was at capacity and she was on a euthanization list. This puppy is full of energy, but also understands when it's time to relax and can do just that right by your side. She is full of so much love and attention and is willing to give it to any caring owner!"
     },
     {
         "owner": "Anthony",
         "emailOwner": "anthony@example.com",
         "name": "Scarlett",
-        "img": "images/success_scarlett.jpg",
+        "img": "../jsons/images/success_scarlett.jpg",
         "desc": "Scarlett is a 18 month old boxer puppy. She can be very shy at times, but once you get to know her she is very loving. Her favorite activity is to play fetch and pick up sticks off the ground. She is looking for a forever home since her most recent owners moved out of state and could not take her with them; please consider being the one to help her out."
     },
     {
         "owner": "Owen",
         "emailOwner": "owen@example.com",
         "name": "Shamu",
-        "img": "images/success_shamu.jpg",
+        "img": "../jsons/images/success_shamu.jpg",
         "desc": "Shamu is a 12 year old chiuhuahua that has been in and out of foster homes his whole life. He previously has worked with multiple college students as an emotional support dog, but since then has retired and is looking for someone that can relax with him and give him the best final moments any dog could ask for. Despite being old, he is full of energy and loves to go for walks around the neighborhood."
     },
     {
         "owner": "Spencer",
         "emailOwner": "spencer@example.com",
         "name": "Ollie",
-        "img": "images/success_ollie.jpg",
+        "img": "../jsons/images/success_ollie.jpg",
         "desc": "Ollie is a 3 year old yorkshire terrier that was given to us by a local shelter. He is a very social dog and loves to meet new people and dogs alike. He loves to be bathed regularly and accepts attention from anyone and everyone that meets her. Ollie has also showed his true colors as an educational ambassador for nearby elementary and middle schools."
     }
 ]

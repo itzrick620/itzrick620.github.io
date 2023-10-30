@@ -34,7 +34,7 @@ const showDogs = async () => {
         if (dogs) {
             let dogsSection = document.getElementById("main-content");
             dogs.forEach((dog) => {
-                dogsSection.appendChild(getDog(dog));
+                dogsSection.append(getDog(dog));
             });
         }
     } catch (error) {
@@ -78,9 +78,9 @@ const getDog = (dog) => {
 
     // Create an image element for the dog's picture
     let img = document.createElement("img");
-    img.src = dog.img; // Ensure that the image URL is correct
+    img.src = "https://itzrick620.github.io/jsons/" + dog.img; // Ensure that the image URL is correct
     img.alt = dog.name; // Provide an alt text
-    section.appendChild(img);
+    section.append(img);
 
     return section;
 };

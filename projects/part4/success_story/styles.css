@@ -34,21 +34,37 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 #box {
     list-style-type: none;
 }
 
-#dog1, #dog2, #dog3, #dog4 {
-    border:  3px solid #310273;
+/* Style the dynamically generated dog boxes */
+.dog {
+    border: 3px solid #310273;
     background-color: #7A6DA6;
-    padding: left 100px;
-    margin: 4px;
-    border-radius: 2px;
-    flex:10%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
 }
-/*Form*/
+
+/* Style the dog's name */
+.dog h1 {
+    color: #310273;
+}
+
+/* Style the details */
+.dogs-details {
+    color: #310273;
+}
+
+/* Style the list items */
+.dogs-details li {
+    list-style: none;
+    padding: 5px;
+}
 
 #button-add {
     height: 30px;
