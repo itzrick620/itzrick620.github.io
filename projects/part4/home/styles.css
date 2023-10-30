@@ -1,0 +1,157 @@
+/*Body*/
+
+body {
+    background-color: #FBE292;
+}
+
+#main-content, #main-header, #main-footer {
+    padding: 20px 40px;
+    margin: auto;
+    text-align: center;
+}
+
+#main-header h1, h2 {
+    color: #a65132
+}
+
+#main-nav li {
+    text-align: center;
+}       
+
+#main-footer p {
+    text-align: right;
+}
+.mission, .quick-links, .location-iframe{
+    background-color: #7A6DA6;
+    color: #310273;
+    padding-left: 100px;
+    padding: 20px;
+    margin: 10px;
+    flex:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid #310273;
+}
+
+.links-box {
+    background-color: #310273;
+    border:solid 5px;
+    border-color:#7A6DA6;
+    padding:10px;
+    margin:5px;
+    flex:10%;
+    position:relative;
+}
+.links-img {
+    margin-top:10px;
+    max-width: 100%;
+    border-radius:3px;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*Form Boxes*/
+#messagebox {
+    height: 70px;
+    width: 400px;
+}
+
+#namebox, #emailbox, #subjectbox {
+    height: 35px;
+    width: 400px;
+}
+
+#submit {
+    height: 50px;
+    width: 100px;
+}
+
+#input {
+    border-radius: 10px;
+}
+
+#main-nav-items {
+    margin: 10px;
+    padding: 10px 10px;
+    background: #7A6DA6;
+    text-decoration: #A65132;
+    border-radius: 10px;
+    border: 3px solid #310273;
+}
+/*Main Nav*/
+
+#main-nav ul {
+    padding-left: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: #310273;
+}
+
+#main-nav a:hover {
+    border-bottom: 1px solid #310273;
+}
+
+/*Hamburger Menu*/
+
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: #A65132;
+    margin: 6px 0;
+}
+
+/*Typography*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+#main-nav li {
+    font-size: 1.5em;
+}
+
+#main-content p {
+    font-size: 1.2em;
+}
+a {
+    text-decoration: none;
+    color: #A65132;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+/*Larger Resolution*/
+
+@media only screen and (min-width:1100px) {
+    #main-nav-items {
+        display: flex;
+    }
+
+    #main-nav-items li {
+        flex: 1;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    #main-content p {
+        padding-right: 100px;
+    }
+}

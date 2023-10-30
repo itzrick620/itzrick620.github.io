@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Donate - ColumbiaStraySavers</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header id="main-header">
+            <img id="ig" src="../images/logo.jpg" alt="logo">
+            <h1>ColumbiaStraySavers</h1>
+            <nav id="main-nav">
+                <div id="nav-toggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="main-nav-items" class="hidden">
+                    <li><a href="../home/home.html" id="p1of5">Home</a></li>
+                    <li><a href="../adopt_a_stray/adopt_a_stray.html" id="p2of5">Adopt A Stray</a></li>
+                    <li><a href="" id="p3of5">Donate</a></li>
+                    <li><a href="../get_involved/get_involved.html" id="p4of5">Get Involved</a></li>
+                    <li><a href="../success_story/success_story.html" id="p5of5">Success Stories</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content" class="columns">
+            <h2>Why Donate?</h2>
+            <div class="donate-why">
+                <p>This shelter is dedicated to the well-being of every canine resident, providing them with love, care, and a second chance at a happy, healthy life. When you adopt from ColumbiaStraySavers, you're supporting their mission to rescue and rehabilitate dogs in need, while also gaining a loyal and loving companion who will bring joy, loyalty, and unwavering companionship into your home. Choosing adoption is a win-win, offering a deserving dog a forever home and opening your heart to a new, cherished member of your family.</p>
+            </div>
+            <h2>Ways to Donate:</h2>
+            <div class="donate-ways">
+                <div class="ways-mail">
+                    <ul id="ways-col1">
+                        <li><strong>Mail a Check</strong></li>
+                        <li>Make checks payable to "Columbia Stray Savers" and mail them to 156 Any Street, Washington, DC, 20500</li>
+                    </ul>
+                </div>
+                <div class="ways-supply">
+                    <ul id="ways-col2">
+                        <li><strong>Supply Donations</strong></li>
+                        <li>CAN BE DROPPED OFF AT OUR FACILITY</li>
+                        <li>123 Any Street, Columbia, SC, 29225</li>
+                        <li>We accept all kinds of animal supplies!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="donate-recurring">
+                <h2>Recurring Donation</h2>
+                <p>Setting up a recurring monthly donation to support the shelter is a meaningful way to ensure a steady source of income for our vital work. By committing to a monthly contribution, you can help us continue our mission of rescuing and caring for dogs, making a lasting and positive impact on the lives of countless animals in need.</p>
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="c2837380-2c88-4d41-ac2f-62db1d933b12">
+                    <section id="box1">
+                        <h2 id="name">Name (Required)</h2>
+                        <input id="namebox" type="text" name="Name" required>
+                    </section>
+                    <section id="box2">
+                        <h2 id="email">Email (Required)</h2>
+                        <input id="emailbox" type="email" name="email" required>
+                    </section>
+                    <section id="box1">
+                        <h2 id="donoamt">Donation Amount</h2>
+                        <input id="donoamtbox" type="subject" name="Subject">
+                    </section>
+                    <div id="button">
+                        <button id="donate-monthly" type="submit">Start a monthly donation</button></a>
+                    </div>
+                </form>
+                <script src="https://web3forms.com/client/script.js" async defer></script>
+            </div>
+        </main>
